@@ -1,0 +1,87 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    height: 100vh;
+    background-color: #61b136;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    padding-block: 2rem;
+    background-color: #217756;
+    color: #f8f1f1;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    min-width: 20rem;
+}
+
+.header > h1{
+    width: 100%;
+}
+
+section{
+    width: 100%;
+    height: 86.99vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+
+.game-board{
+    width: 50%;
+    max-width: 45rem;
+    height: 0;
+    padding-bottom: min(50%, 45rem);
+    background-color: #bbdc2f;
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+
+}
+
+.grid-cell{
+    width: 100%;
+    height: 0;
+    position: relative;
+    padding-bottom: 100%;
+    border: 1px solid #61b136;
+    cursor: pointer;
+    transition: background-color .25s ease-in;
+}
+
+.grid-cell:hover{
+    background-color: #dd4747;
+}
+
+.grid-cell > p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 8vw;
+}
+
+.replay-button{
+    border: none;
+    padding-block: 2rem;
+    padding-inline: 4rem;
+    background-color: #bbdc2f;
+    font-size: 5rem;
+    color: #FFF;
+}
