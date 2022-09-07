@@ -1,0 +1,19 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "NAN",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abbass-Jradi/Tic-Tac-Toe.git"
+  },
+  "author": "abbass",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abbass-Jradi/Tic-Tac-Toe/issues"
+  },
+  "homepage": "https://github.com/Abbass-Jradi/Tic-Tac-Toe#readme"
+}
